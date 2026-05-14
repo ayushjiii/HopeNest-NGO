@@ -1,0 +1,22 @@
+.arrow-shape {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 30px solid #f59e0b;
+}
+
+.progress-bar {
+  position: relative;
+  height: 6px;
+  background-color: #e5e7eb;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #10b981;
+  border-radius: 3px;
+  transition: width 0.3s ease-in-out;
+}
